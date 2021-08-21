@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+<body>
+    <h3>Contact Details :</h3>
+    <p>Address : Flat No.: 501,Ashirwad Towers, <a href="https://www.google.com/maps/place/Peer+Muchalla,+Panchkula,+Punjab/@30.6616306,76.8569545,15z/data=!3m1!4b1!4m5!3m4!1s0x390f948c394c4dd9:0x222c402f0d39e11a!8m2!3d30.6596484!4d76.867772">Peermuchalla</a></p>
+    <p>Email Id: ishaan617@gmail.com</p>
+    <p>Phone No.: +91-8146682221</p>
+    <hr>
+    <!-- mentioning in enctype that data we are sending is plaint text type and name in each input is will separate and classify it according to textbox -->
+    <form action="mailto:ishaan617@gmail.com" method="POST" enctype="text/plain">
+        <label>Your Name :</label>
+        <input type="text" name="yourName" value="">
+        <br>
+        <label>Your Email :</label>
+        <!-- type email will check for email type -->
+        <input type="email" name="yourEmail" value="">
+        <br>
+        <label>Your Message</label><br>
+        <textarea name="yourMessage" rows="10" cols="30"></textarea>
+        <br>
+        <input type="submit" name="">
+    </form>
+</body>
+</html>
